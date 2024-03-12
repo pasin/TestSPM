@@ -1,6 +1,7 @@
 // swift-tools-version: 5.10
 import PackageDescription
 
+@available(*, deprecated, message: "Use https://github.com/pasin/TestSPM2.git Instead")
 let package = Package(
     name: "CouchbaseLiteSwift",
     platforms: [
