@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "CouchbaseLiteSwift Enterprise",
-            targets: ["CouchbaseLiteSwift"]),
+            targets: ["CouchbaseLiteSwift-EE"]),
         .library(
             name: "CouchbaseLiteSwift Community",
             targets: ["CouchbaseLiteSwift-CE"])
